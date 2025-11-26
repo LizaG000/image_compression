@@ -1,0 +1,11 @@
+[api]
+host = 'localhost'
+port = 8000
+project_name = 'base'
+
+[database]
+host='database'
+port=5432
+username='postgres'
+password='postgres'
+database='postgres'
