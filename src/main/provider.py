@@ -10,6 +10,8 @@ from src.config import ApiConfig
 from src.config import DatabaseConfig
 
 from src.usecase.users.create import CreateUserUsecase
+from src.usecase.image.compress import CompressUsecase
+from src.usecase.image.decompress import DecompressUsecase
 
 class MainProvider(Provider):
     scope = Scope.REQUEST
@@ -28,5 +30,8 @@ class MainProvider(Provider):
 
     _get_usecases = provide_all(
         CreateUserUsecase,
+        CompressUsecase,
+        DecompressUsecase,
+
     )
 

@@ -6,7 +6,7 @@ authors = [
     {name = "LizaG000",email = "elizaveta.vladimirovna.g@gmail.com"}
 ]
 readme = "README.md"
-requires-python = ">=3.10,<4.0"
+requires-python = ">=3.11,<4.0"
 dependencies = [
     "annotated-types>=0.7.0",
     "anyio>=4.9.0",
@@ -32,7 +32,12 @@ dependencies = [
     "markupsafe (>=3.0.2,<4.0.0)",
     "psycopg (>=3.2.9,<4.0.0)",
     "psycopg-binary (>=3.2.9,<4.0.0)",
-    "sqlalchemy (>=2.0.41,<3.0.0)"
+    "sqlalchemy (>=2.0.41,<3.0.0)",
+    "dahuffman (>=0.4.2,<0.5.0)",
+    "numpy (>=2.3.5,<3.0.0)",
+    "scipy (>=1.16.3,<2.0.0)",
+    "pillow (>=12.0.0,<13.0.0)",
+    "python-multipart (>=0.0.20,<0.0.21)",
 ]
 
 
