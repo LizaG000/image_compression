@@ -1,0 +1,86 @@
+body {
+  background: #7d90b3;
+  margin: 0;
+  padding: 0;
+
+  /* Центрируем содержимое */
+  display: flex;
+  justify-content: center; /* горизонтально */
+  align-items: center;     /* вертикально */
+  height: 100vh;           /* растягиваем body на весь экран */
+  font-family: sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;  /* элементы располагаются вертикально */
+  align-items: center;     /* центрируем по горизонтали */
+  gap: 15px;               /* расстояние между элементами */
+}
+
+h1 {
+  color: #e7efff;
+  font-size: 20pt;
+  margin: 0;
+
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+p {
+  color: #2c3c5c;
+  font-size: 12pt;
+  margin: 0;
+}
+
+input {
+  font-size: 10pt;
+  border-radius: 5px;
+  padding: 15px;
+  color: #e7efff;
+  background: #2c3c5c;
+  border: none;
+  text-align: center;
+  margin-top: 10px;
+}
+
+select {
+  font-size: 10pt;
+  border-radius: 5px;
+  padding: 15px;
+  color: #e7efff;
+  background: #2c3c5c;
+  border: none;
+  text-align: center;
+}
+
+button {
+  font-size: 10pt;
+  border-radius: 5px;
+  padding: 15px;
+  color: #e7efff;
+  background: #2c3c5c;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+
+.input-row {
+  display: flex;            /* включаем Flexbox */
+  align-items: center;      /* выравнивание по вертикали */
+  gap: 10px;                /* расстояние между подписью и инпутом */
+  margin-bottom: 10px;      /* отступ между строками */
+}
+
+.center{
+  text-align: center;
+}
+
+.button-row {
+  display: flex;              /* включаем Flexbox */
+  justify-content: center;    /* центрируем по горизонтали */
+  gap: 10px;                  /* расстояние между кнопками */
+  margin-top: 20px;           /* отступ сверху */
+}
